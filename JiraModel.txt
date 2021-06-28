@@ -1,0 +1,45 @@
+test added in line1
+modelling >> meta data preparation >> Ingestion Job preparation >> Flow Graph Design >> Unit Testing >> Data Load >> SIT
+
+
+Quick setup — if you’ve done this kind of thing before
+or	
+https://github.com/balajimnp/Gitflow.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# Gitflow" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/balajimnp/Gitflow.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/balajimnp/Gitflow.git
+git branch -M main
+git push -u origin main
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project
+
+modelling >> meta data preparation >> Ingestion Job preparation >> Flow Graph Design >> Unit Testing >> Data Load >> SIT
+test
+
+Which branch should be used for bringing forth production releases?
+   - Develop
+   - main
+Branch name for production releases: [main] Develop
+
+Which branch should be used for integration of the "next release"?
+   - main
+Branch name for "next release" development: [] main
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/] fet
+Bugfix branches? [bugfix/] bug
+Release branches? [release/] release
+Hotfix branches? [hotfix/] hotfix
+Support branches? [support/] sup
+Version tag prefix? [] sample
+Hooks and filters directory? [/home/ec2-user/Gitflow/.git/hooks]
+[ec2-user@ip-172-31-40-99 Gitflow]$
